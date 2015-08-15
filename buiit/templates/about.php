@@ -1,0 +1,2 @@
+<h1>About This Website</h1>
+<p>This is a demonstration of how to use basic templating techniques in PHP. The same headers and footers are loaded each time, but new content is requested based on the query string.</p>

@@ -1,0 +1,176 @@
+/* So the HTML5 structural tags work in older browsers */
+/*-------------------------- 
+    Project 5
+    Wei Gan
+    10 March	
+--------------------------*/
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+html{
+font: sans-serif;
+background-image:url(images/4567.jpg);
+ 
+	background-repeat:repeat -x ;
+	background-repeat:repeat -y;
+}
+.firstcharacter {
+    font-size: 200%;
+ 
+}
+header{
+border-bottom: 2px solid;
+border-bottom-color: black;
+ padding-top: .2em;
+    
+    padding-bottom: .2em;
+	background-image: -moz-linear-gradient(
+        45deg, white, #94BFF7 75%,black);/* For Firefox 3.6 to 15 */
+		background: -webkit-linear-gradient(45deg, white, #94BFF7 75%,black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, white, #94BFF7 75%,black); /* For Opera 11.1 to 12.0 */
+    background: linear-gradient(45deg, white, #94BFF7 75%,black); /* Standard syntax (must be last) */
+	background-color: #94BFF7;
+}
+body{
+width: 800px;
+
+ background-color: white;
+  border-style:solid;
+    border-width: 3px;
+	margin:0 auto;
+	
+	-webkit-box-shadow:0 0 15px 4px  black; 
+  -moz-box-shadow:0 0 15px 4px  black; 
+  box-shadow:0 0 15px 4px  black;  
+	
+}
+span img {
+	float: left;
+	margin: 0.5em;
+	padding-right: 10px;
+   padding-top: 1.5em;
+    padding-left: 10px;
+}
+
+
+section a :link {
+    color: #94BFF7;
+}
+section a:visited {
+    color: #94BFF7;
+}
+section a:hover {
+    color: #F5021B;
+}
+header nav{clear:all;
+	
+	border-top: 2px solid black;
+	
+   
+}
+footer{clear: both;
+font-size: 80%;
+text-align: center;
+    border-top:2px solid black;
+	padding-top: 1em;
+    padding-bottom: 1em;
+	
+		background-image: -moz-linear-gradient(
+        45deg, black, #94BFF7 25%,white);
+		
+		background: -webkit-linear-gradient(45deg, black, #94BFF7 25%,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, black, #94BFF7 25%,white); /* For Opera 11.1 to 12.0 */
+    background: linear-gradient(45deg, black, #94BFF7 25%,white); /* Standard syntax (must be last) */
+	background-color: #94BFF7;
+}
+section{
+margin-left: 1.5em;
+margin-right: 1em;
+
+
+}
+#leftbar{ float: left;
+width: 175px;
+margin: 20px 10px 12em 0px;
+}
+header a { color:black;}
+nav li {
+	display: inline;
+	padding: 0 .8em;
+	border-right: 2px solid black;
+	font-weight: bold;
+}
+nav ul {
+	margin:0 auto;
+	list-style: none;
+	padding: .2em;
+	text-align:center;
+}
+
+	#leftbar li{
+		display: block;
+	width: 100px;
+	height:20px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 1em;
+	margin-left:0;
+		background-color: #94BFF7;
+		
+}
+#leftbar  a{
+color:black;
+text-decoration:none;
+}
+
+#rightbar li{
+		display: block;
+	width: 100px;
+	height:20px;
+    padding: 10px;
+    
+    margin-bottom: 6em;
+	margin-left:0;
+		
+		
+}
+#rightbar  a{
+color:black;
+
+}
+#rightbar  li :hover{
+color:green;
+
+}
+#rightbar  li :focus{
+color:green;
+
+}
+#rightbar  h4{
+
+    padding-left: 12px;
+
+}
+
+#rightbar{ float: right;
+width: 175px;
+padding: 20px 10px 12em 0px;
+background-color:#CBD6F7;
+margin-left:10px;
+
+}
+
+		#leftbar ul{
+		padding-left:26px;
+		}
+		section a{float:left;
+		padding-right:20px;
+		padding-bottom:7em;
+		}
+	
+		section h2{
+		clear:all;
+		margin:.5em;
+		}
+	
+	

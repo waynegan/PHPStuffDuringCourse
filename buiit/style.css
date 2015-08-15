@@ -1,0 +1,41 @@
+body {
+	margin: 25%;
+	font-family: "Trebuchet MS", Sans-serif;
+}
+
+.menu {
+	display: block;
+	width: 100%;
+}
+
+.menu li {
+	display: inline-block;
+	width: 120px;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.menu li:hover {
+	background: #AAA;
+}
+
+.menu li a {
+	color: #090;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	text-decoration: underline;
+	color: #900;
+}
+
+
+
+.message {
+	color: #090;
+	background: #FF9;
+	border: 3px solid #090;
+	padding: 15px;
+	margin: 20px;
+	box-shadow: 3px 3px 3px #777;
+}
